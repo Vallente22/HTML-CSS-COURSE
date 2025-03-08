@@ -1,0 +1,43 @@
+p {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.textbox {
+    font-size: 16px;
+    width: 326px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow:  -1 1px 10px rgba(0, 0, 0, 0.15);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.privacy {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.agree {
+    font-size: 16px;
+    background-color: rgb(54, 114, 243);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 128px;
+    padding-right: 128px;
+    cursor: pointer;
+}
+
+.agree:hover {
+    background-color: rgb(12, 68, 189);
+}

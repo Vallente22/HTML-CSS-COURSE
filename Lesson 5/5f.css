@@ -1,0 +1,28 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.price {
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.usd {
+  font-size: 16px;
+  color: gray;
+}
+
+.gain {
+  color: green;
+  margin-bottom: 7px;
+}
+
+.after {
+  color: gray;
+}
+
+.down {
+  color: red;
+}

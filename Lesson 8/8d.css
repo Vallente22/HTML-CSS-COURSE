@@ -1,0 +1,32 @@
+.first-name, .last-name, .email {
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 120px;
+}
+
+.email {
+    display: block;
+    width: 262px;
+    margin-top: 10px;
+}
+
+.sign-button {
+    background-color: rgb(0, 140, 255);
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left:  110px;
+    padding-right: 110px;
+    margin-top: 10px;
+}

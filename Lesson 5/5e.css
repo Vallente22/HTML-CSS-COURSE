@@ -1,0 +1,42 @@
+p {
+  font-family: Arial;
+  text-align: center;
+}
+
+.new-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: chocolate;
+  margin-bottom: 0px;
+}
+
+.macbook-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.supercharged-text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.from-text {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.buy {
+  background-color: rgb(10, 102, 194);
+  font-weight: bold;
+  border: none;
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+}

@@ -1,0 +1,23 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.user-at {
+  font-weight: normal;
+  color: gray;
+}
+
+.post {
+  margin-top: 8px;
+  width: 500px;
+}
+
+.mentioned {
+  color: rgb(39, 137, 218);
+}
