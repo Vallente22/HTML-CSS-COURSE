@@ -44,3 +44,11 @@ p {
   margin-left: 10px;
   margin-bottom: 10px;
 }
+
+.add-button:hover {
+  opacity: 0.7;
+}
+
+.add-button:active {
+  background-color: rgb(0, 74, 143);
+}
