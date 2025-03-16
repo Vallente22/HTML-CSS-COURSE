@@ -1,0 +1,59 @@
+body {
+  height: 3000px;
+}
+
+div, button {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+}
+
+.user-picture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.name {
+  margin-left: 5px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.add-button {
+  background-color: rgb(56,115,218);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px 10px 15px;
+  margin-right: 5px;
+}
+
+.message-button {
+  background-color: (228,231,235);
+  color: black;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 17px 10px 17px;
+  margin-left: 5px;
+}
