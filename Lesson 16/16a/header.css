@@ -6,9 +6,8 @@ body {
   background-color: white;
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  row-gap: 30px;
 }
 
 .upload-icon-container,
@@ -51,7 +50,15 @@ body {
   opacity: 1;
 }
 
-.notifications-count {
+.notification-count {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  padding: 1px 5px 1px 5px;
+  border-radius: 10px;
   position: absolute;
-
+  top: -2px;
+  right: -4px;
+  pointer-events: none;
 }

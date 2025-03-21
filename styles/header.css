@@ -152,6 +152,7 @@
   right: -5px;
   background-color: rgb(200, 0, 0);
   color: white;
+  pointer-events: none;
 }
 
 .current-user-picture {
