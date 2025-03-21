@@ -1,0 +1,26 @@
+body {
+  height: 3000px;
+}
+
+.clothes-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+.clothes {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sale-tag {
+  font-family: Arial;
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 3px 6px 3px 6px;
+}
