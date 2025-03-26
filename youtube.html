@@ -14,7 +14,7 @@
 
   <body>
 
-    <div class="header">
+    <header class="header">
       <div class="left-section">
         <img class="hamburger-menu" src="icons/hamburger-menu.svg">
         <img class="youtube-logo" src="icons/youtube-logo.svg">
@@ -25,6 +25,7 @@
           <img class="search-icon" src="icons/search.svg">
           <div class="tooltip">Search</div>
         </button>
+        <!-- put position absolute inside position relative to make tooltip-->
         <button class="voice-search-button">
           <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
           <div class="tooltip">Search with your voice</div>
@@ -46,9 +47,9 @@
         </div>
         <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
       </div>
-    </div>
+    </header>
 
-    <div class="sidebar">
+    <nav class="sidebar">
       <div class="sidebar-link">
         <img src="icons/home.svg">
         <div>Home</div>
@@ -73,9 +74,11 @@
         <img src="icons/library.svg">
         <div>Library</div>
       </div>
-    </div>
+    </nav>
 
-      <div class="video-grid">
+    <main>
+      <section class="video-grid">
+
         <div class="video-preview">
           <div class="thumbnail-row">
             <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
@@ -214,7 +217,9 @@
             </div>
           </div>
         </div>
-      </div>
+
+      </section>
+    </main>
 
   </body>
 </html>
